@@ -1,0 +1,8 @@
+java script
+
+DOM - Document Object Model
+
+Consegue manipular tudo html
+Client side
+
+tipagem dinamica, não precisa declarar o tipo de variavel
