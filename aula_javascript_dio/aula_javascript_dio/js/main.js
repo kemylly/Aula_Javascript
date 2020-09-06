@@ -107,7 +107,7 @@ for (count = 0; count <= 5; count++) {
 
 //datas
 /*var d = new Date();
-alert(d); //data generalizada  */
+alert(d); //data generalizada  
 
 var d = new Date();
 alert(d.getDate());
@@ -115,8 +115,7 @@ alert(d.getMonth());
 alert(d.getDay());
 alert(d.getHours());
 alert(d.getMinutes());
-
-
+*/
 
 
 

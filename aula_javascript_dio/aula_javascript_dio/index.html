@@ -4,9 +4,35 @@
     <meta charset="utf-8" />
     <title>Minha pagina</title>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/main2.js"></script>
 </head>
-    <body>
-        
-        <h1>Minha pagina </h1>
-    </body>
+<body onload="load()">
+    <!--onload faz algo quando a pagina é carregada-->
+
+    <h1>Minha pagina </h1>
+
+    <button type="button" onclick="clicou()">Clique aqui</button>
+
+    <!-- <h3>Obrigada por clicar</h3> -->
+    <!--<h3 id="agradecimento"></h3> -->
+    <!--<p id="agradecimento"></p> -->
+    <p id="agradecimento" onclick="redirecionar()"></p>
+
+    <!--<p id="mousemove" onmouseover="trocar()">Passe o mouse aqui</p>-->
+    <!--<p id="mousemove" onmouseover="trocar()" onmouseout="voltar()">Passe o mouse aqui</p> -->
+    <!--onmouseover é para quando passarmos o mouse ele mudar
+        e eu uso onmouseout para quando eu tirar o mouse ele fazer algo
+        como voltar-->
+
+    <p id="mousemove" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+    <p id="mousemove2" onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+
+    <!--combo de opcoes-->
+    <select onchange="FuncaoChange(this)">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+    </select>
+
+</body>
 </html>
